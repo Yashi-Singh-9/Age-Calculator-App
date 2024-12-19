@@ -46,12 +46,12 @@ Users should be able to:
 
 **Mobile Screenshot**
 
-![Screenshot of the Age Calculator App](design/mobile-design.png)
+<img src="design/mobile-design.png" height="750">
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/age-calculator-app-3SJzJiknHM)
+- Live Site URL: [Live Site](https://yashi-singh-9.github.io/Age-Calculator-App/)
 
 ---
 
