@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+    <main class="container" role="main" aria-labelledby="form-title">
+      <form action="#" id="age-form" novalidate>
+        <!-- Day -->
+        <div class="input-group">
+          <label for="day">Day</label>
+          <input type="text" name="day" id="day" placeholder="DD" maxlength="2" aria-describedby="day-error" aria-required="true">
+          <p class="error" id="day-error" aria-live="polite"></p>
+        </div>
+        <!-- Month -->
+        <div class="input-group">
+          <label for="month">Month</label>
+          <input type="text" name="month" id="month" placeholder="MM" maxlength="2" aria-describedby="month-error" aria-required="true">
+          <p class="error" id="month-error" aria-live="polite"></p>
+        </div>
+        <!-- Year -->
+        <div class="input-group">
+          <label for="year">Year</label>
+          <input type="text" name="year" id="year" placeholder="YYYY" maxlength="4" aria-describedby="year-error" aria-required="true">
+          <p class="error" id="year-error" aria-live="polite"></p>
+        </div>
+      </form>
+      
+        <!-- Submit Button -->
+        <button type="submit" aria-label="Submit to Calculate Age">
+          <span>
+            <img src="assets/images/icon-arrow.svg" alt="Arrow Icon">
+          </span>
+        </button>
+
+      <!-- Result Section -->
+      <section class="result" aria-live="polite">
+        <!-- Years -->
+        <p>
+          <span class="number" id="years" aria-live="polite">--</span>years
+        </p>
+        <!-- Months -->
+        <p>
+          <span class="number" id="months" aria-live="polite">--</span>months
+        </p>
+        <!-- Days -->
+        <p>
+          <span class="number" id="days" aria-live="polite">--</span>days
+        </p>
+      </section>
+    </main>  
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/yashi-singh-b4143a246" target="_blank">Yashi Singh</a>.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
